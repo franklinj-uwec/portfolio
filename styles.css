@@ -31,4 +31,29 @@
         justify-content: space-evenly;
         color: #4f2683;
     }
+    div>h2{
+        color: #862334;
+        text-align: center;
+        padding: 1rem;
+    }
+    div>p{
+        margin: 1rem;
+    }
+    div>.about>p{
+        text-align: center;
+    }
+    div>h3{
+        color: #4f2683;
+        padding: 1rem;
+    }
+    div>.history>ul{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    div>.accomplishments>ul{
+        margin: 1rem;
+    }
+    .contact>p{
+        text-align: center;
+    }
 }
