@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1199.58 1199.58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #840029;
+        font-family: VladimirScript, 'Vladimir Script';
+        font-size: 583.04px;
+      }
+
+      .cls-2 {
+        fill: #febd3b;
+      }
+
+      .cls-3 {
+        fill: #4f2683;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-3" x="99.79" y="99.79" width="1000" height="1000" transform="translate(150.55 -119.71) rotate(13.02)"/>
+    <ellipse class="cls-2" cx="677.87" cy="546.93" rx="500" ry="450"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <text class="cls-1" transform="translate(208.12 667.07) scale(.94 1)"><tspan x="0" y="0">JF</tspan></text>
+  </g>
+</svg>
