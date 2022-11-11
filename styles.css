@@ -1,12 +1,12 @@
-@media (min-width:500px){
+@media (max-width:500px){
     body{
-        background: rgb(79,38,131);
-        background: linear-gradient(270deg, rgba(79,38,131,1) 0%, rgba(255,255,255,0) 100%);
+        background: rgb(251,185,60);
+        background: linear-gradient(270deg, rgba(251,185,60,1) 0%, rgba(255,255,255,0) 100%);
         margin: 0;
     }
     header{
-        background: rgb(251,185,60);
-        background: linear-gradient(180deg, rgba(251,185,60,1) 0%, rgba(255,255,255,0) 100%);
+        background: rgb(79,38,131);
+        background: linear-gradient(180deg, rgba(79,38,131,1) 0%, rgba(255,255,255,0) 100%);
     }
     header>img{
         padding: 2rem;
@@ -16,22 +16,18 @@
         text-align: center;
         color: #862334;
     }
-    header>nav>.top{
+    header>nav{
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
         color: #4f2683;
     }
-    header>nav>.bottom{
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-        display: flex;
-        justify-content: space-evenly;
-        color: #4f2683;
+    header>nav>:hover{
+        color: #862334;
     }
-    div>h2{
+    div>h3{
         color: #862334;
         text-align: center;
         padding: 1rem;
@@ -39,19 +35,66 @@
     div>p{
         margin: 1rem;
     }
-    div>.about>p{
+    .about>p{
+        text-align: center;
+    }
+    div>h4{
+        color: #4f2683;
+        padding: 1rem;
+    }
+    .history>ul{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .accomplishments>ul{
+        margin: 1rem;
+    }
+    .contact>p{
+        text-align: center;
+    }
+}
+@media (min-width:1100px){
+    body{
+        background: rgb(251,185,60);
+        background: linear-gradient(270deg, rgba(251,185,60,1) 0%, rgba(255,255,255,0) 100%);
+    }
+    header{
+        background: rgb(79,38,131);
+        background: linear-gradient(180deg, rgba(79,38,131,1) 0%, rgba(255,255,255,0) 100%);
+    }
+    header>img{
+        width: 23rem;
+        padding: 2rem;
+    }
+    header>h1{
+        font-family: 'sacramento', cursive;
+        color: #862334;
+        text-align: right;
+        padding-right: 20rem;
+    }
+    header>nav{
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: #4f2683;
+    }
+    header>nav>a>:hover{
+        color: #862334;
+    }
+    div>h2{
+        color: #862334;
         text-align: center;
     }
     div>h3{
         color: #4f2683;
-        padding: 1rem;
+        margin: 0 0 0 5rem;
     }
-    div>.history>ul{
-        margin-top: 1rem;
-        margin-left: 1rem;
+    div>p{
+        margin: 2rem;
     }
-    div>.accomplishments>ul{
-        margin: 1rem;
+    div>a>:hover{
+        color: #862334;
     }
     .contact>p{
         text-align: center;
